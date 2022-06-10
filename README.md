@@ -1,2 +1,2 @@
-# Dapps
- These are example of Distributed Applications built using Solidity
+# Dapp Store
+ These are examples of Distributed Applications built using Solidity
