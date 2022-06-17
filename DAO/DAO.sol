@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 
-//! import and use OZ safemath & reentrancy guard libraries on functions
+//! import and use OZ safemath, ERC20 to represent shares & reentrancy guard libraries on functions
 
 contract DAO {
     struct Proposal {
@@ -14,7 +14,7 @@ contract DAO {
         bool executed;
     }
     mapping(address => bool) public investors;
-    mapping(address => uint256) public shares; //* make the shares ERC20 tokens so it can use the erc20 functions like transfer
+    mapping(address => uint256) public shares; //* make the shares ERC20 tokens so it can use the erc20 functions like transferFrom
     mapping(uint256 => Proposal) public proposal;
     mapping(address => mapping (uint=>bool)) public votes;
     uint256 public totalShares;
