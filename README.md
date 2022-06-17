@@ -1,2 +1,4 @@
 # Dapp Store
- These are examples of Distributed Applications built using Solidity
+ These are examples of Applications built using Solidity
+
+> Not safe for reuse(yet)
