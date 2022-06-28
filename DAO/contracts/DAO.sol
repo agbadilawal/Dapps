@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 //! import and use OZ safemath, ERC20 to represent shares & reentrancy guard libraries on functions
 
+
 contract DAO {
     struct Proposal {
         uint256 id;
